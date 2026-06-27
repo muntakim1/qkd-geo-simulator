@@ -4,6 +4,8 @@ QKD Studio is a Rust/Tauri desktop simulator for geospatial quantum-key-distribu
 
 ## Quick demo
 
+https://github.com/muntakim1/qkd-geo-simulator/raw/main/docs/demo/qkd-studio-demo.webm
+
 ```bash
 npm install
 npm run dev          # browser preview at the printed localhost URL
