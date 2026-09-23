@@ -27,6 +27,8 @@ for that filing, the implementation is withheld at this time.
 
 What **is** published in this repository:
 
+- 📦 A **macOS Apple-silicon installer** distributed through GitHub Releases.
+- 🗺️ A **Malaysia–Singapore cross-border QKD scenario screenshot**.
 - 🎥 A **recorded demo walkthrough** of the running application (below).
 - 🗂️ The **repository structure** (folder layout only — placeholder directories,
   no source).
@@ -36,6 +38,28 @@ The full artifact (engine, controllers, topologies, datasets, and analysis
 scripts) is intended to be released, with an archival DOI, once intellectual-
 property protection is secured and the manuscript is published. For collaboration
 or evaluation access in the meantime, please contact the authors (below).
+
+---
+
+## Download for macOS
+
+[**Download QKD Geo Simulator v0.2.0 for Apple silicon**](https://github.com/muntakim1/qkd-geo-simulator/releases/tag/v0.2.0)
+
+The release includes the `.dmg` installer and a SHA-256 checksum file. Drag the
+application into **Applications** to install it. This build targets Apple silicon
+(`arm64`) and uses an ad-hoc macOS signature; because it is not Apple-notarized,
+macOS may require you to right-click the app, choose **Open**, and approve the
+launch under **System Settings → Privacy & Security**.
+
+## Malaysia–Singapore cross-border QKD scenario
+
+![QKD Studio showing the Malaysia–Singapore cross-border QKD topology](docs/images/malaysia-singapore-qkd-topology.jpg)
+
+The geospatial view models a point-to-point C-band QKD route from Alice at the
+Iskandar Puteri Data Centre in Johor, through the Skudai, Johor Bahru, and Mid
+Causeway measurement points, to an intended receiver in Singapore. The scenario
+reproduces the measured Malaysian section (38.513 km and 12.03 dB span loss) and
+supports forward loss-budget studies for the unresolved Singapore section.
 
 ---
 
