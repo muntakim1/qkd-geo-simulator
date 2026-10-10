@@ -1,0 +1,10 @@
+# Runs the QKD Studio reproduction image after it has been loaded with
+#   docker load -i qkd-studio-repro_0.3.0_linux-<arch>.tar.gz
+# (docker/reproduce.sh downloads and loads it for you).
+#
+#   docker compose -f docker/docker-compose.yml up
+services:
+  reproduce:
+    image: qkd-studio-repro:0.3.0
+    volumes:
+      - ../qkd-output:/output
